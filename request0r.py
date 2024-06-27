@@ -2,7 +2,7 @@ import requests
 import datetime
 import time
 
-urls = ['https://www.domain1.com/url', 'https://www.domain2.com/url', 'https://www.domain2.com/url']
+urls = ['https://www.domain1.com/url', 'https://www.domain2.com/url', 'https://www.domain3.com/url']
 
 def check_urls(url):
     timestamp = datetime.datetime.now().isoformat()
